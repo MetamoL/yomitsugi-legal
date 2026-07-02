@@ -6,3 +6,6 @@ lang: ja
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+webmaster_verifications:
+  google: gY9woBQvPCBnQbIlwFMdRd5WytvzXp5C0Q22SYYpKlo
