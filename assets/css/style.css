@@ -1,0 +1,280 @@
+/* Yomitsugi 公式サイト A案「読書の紙（クリーム×こげ茶）」 */
+
+:root {
+  --color-bg: #FAF3E3;
+  --color-hero: #F7E3BE;
+  --color-card: #FFFDF7;
+
+  --color-heading: #3D2E20;
+  --color-body: #4A3728;
+  --color-muted: #6B5A44;
+  --color-footer: #9A8668;
+
+  --color-border-strong: #D9C9A8;
+  --color-border-weak: #E8D9B8;
+  --color-accent: #8A5A2B;
+
+  --font-serif: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP", serif;
+  --font-sans: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-body);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  color: var(--color-heading);
+  line-height: 1.5;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ヘッダー */
+
+.site-header {
+  background: var(--color-card);
+  border-bottom: 1px solid var(--color-border-strong);
+}
+
+.site-header-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.site-title {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--color-heading);
+  text-decoration: none;
+}
+
+.site-nav a {
+  margin-left: 16px;
+  font-size: 14px;
+  color: var(--color-body);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-border-strong);
+}
+
+.site-nav a:first-child {
+  margin-left: 0;
+}
+
+.site-nav a:hover {
+  color: var(--color-accent);
+}
+
+/* メイン */
+
+.site-main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px 48px;
+}
+
+.site-main > *:first-child {
+  margin-top: 0;
+}
+
+/* ヒーロー */
+
+.hero {
+  background: var(--color-hero);
+  margin: 0 calc(50% - 50vw);
+  padding: 40px 20px;
+}
+
+.hero-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero-text {
+  flex: 1 1 320px;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  margin: 0 0 16px;
+}
+
+.hero-text p {
+  margin: 0 0 24px;
+  color: var(--color-body);
+}
+
+.hero-image {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 200px;
+  border: 2px solid var(--color-heading);
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* ストアボタン */
+
+.store-btn {
+  display: inline-block;
+  background: var(--color-heading);
+  color: var(--color-bg);
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.store-btn:hover {
+  background: var(--color-body);
+  opacity: 1;
+}
+
+/* 機能カード */
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.feature-card {
+  background: var(--color-card);
+  border: 1px solid var(--color-border-weak);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.feature-card h3 {
+  font-size: 16px;
+  margin: 0 0 8px;
+}
+
+.feature-card p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
+/* 記事導線 */
+
+.article-strip {
+  display: block;
+  background: var(--color-card);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0;
+  padding: 16px 20px;
+  margin: 24px 0;
+  text-decoration: none;
+}
+
+.article-strip .article-strip-title {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 17px;
+  color: var(--color-heading);
+  margin-bottom: 4px;
+}
+
+.article-strip .article-strip-desc {
+  display: block;
+  font-size: 14px;
+  color: var(--color-muted);
+  text-decoration: none;
+}
+
+.article-strip:hover .article-strip-title {
+  color: var(--color-accent);
+}
+
+/* フッター */
+
+.site-footer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+  border-top: 1px solid var(--color-border-strong);
+  text-align: center;
+}
+
+.site-footer .disclaimer {
+  font-size: 12px;
+  color: var(--color-footer);
+  line-height: 1.7;
+  margin: 0 0 12px;
+}
+
+.footer-nav a {
+  margin: 0 8px;
+  font-size: 13px;
+  color: var(--color-footer);
+  text-decoration: underline;
+}
+
+/* レスポンシブ */
+
+@media (max-width: 600px) {
+  .hero-inner {
+    flex-direction: column;
+  }
+
+  .hero-image {
+    order: -1;
+  }
+
+  .hero-image img {
+    width: 160px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
