@@ -46,6 +46,11 @@ description: "「小説家になろう」のWeb小説を、お気に入り管理
 
 ## 読みもの
 
+<a class="article-strip" href="{{ '/articles/narou-sumaho-kaiteki/' | relative_url }}">
+  <span class="article-strip-title">「小説家になろう」をスマホで快適に読む方法まとめ（iPhone/Android）</span>
+  <span class="article-strip-desc">ブラウザ・公式アプリ・リーダーアプリの3つの方法を比較し、快適な読み方を整理しました。</span>
+</a>
+
 <a class="article-strip" href="{{ '/articles/narou-mokuji-togireru/' | relative_url }}">
   <span class="article-strip-title">「小説家になろう」の長編で目次が途切れる・100話までしか表示されない問題の原因と対策</span>
   <span class="article-strip-desc">目次が途中までしか表示されない症状の技術的な原因と、今すぐできる対策をまとめました。</span>
