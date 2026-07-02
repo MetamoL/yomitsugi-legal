@@ -1,0 +1,8 @@
+theme: jekyll-theme-primer
+title: Yomitsugi（ヨミツギ）公式サイト
+description: "「小説家になろう」のWeb小説を、お気に入り管理・更新検知・ランキングで快適に読む非公式リーダーアプリ Yomitsugi の公式サイト。"
+lang: ja
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
