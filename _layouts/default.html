@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}">Yomitsugi</a>
+    <nav class="site-nav">
+      <a href="{{ '/articles/narou-mokuji-togireru/' | relative_url }}">読みもの</a>
+      <a href="{{ '/support' | relative_url }}">サポート</a>
+      <a href="{{ '/privacy_policy' | relative_url }}">プライバシー</a>
+    </nav>
+  </div>
+</header>
+
+<main class="site-main">
+  {{ content }}
+</main>
+
+<footer class="site-footer">
+  <p class="disclaimer">本アプリは株式会社ヒナプロジェクトが提供・運営するものではありません。『なろう』『小説家になろう』は同社の登録商標です。</p>
+  <nav class="footer-nav">
+    <a href="{{ '/' | relative_url }}">ホーム</a>
+    <a href="{{ '/support' | relative_url }}">サポート</a>
+    <a href="{{ '/privacy_policy' | relative_url }}">プライバシー</a>
+  </nav>
+</footer>
+</body>
+</html>
