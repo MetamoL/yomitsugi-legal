@@ -7,15 +7,15 @@
 
   --color-heading: #3D2E20;
   --color-body: #4A3728;
-  --color-muted: #6B5A44;
-  --color-footer: #9A8668;
+  --color-muted: #5D4936;
+  --color-footer: #8A7358;
 
   --color-border-strong: #D9C9A8;
   --color-border-weak: #E8D9B8;
   --color-accent: #8A5A2B;
 
-  --font-serif: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP", serif;
-  --font-sans: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  --font-serif: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --font-sans: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 * {
@@ -40,6 +40,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
   color: var(--color-heading);
   line-height: 1.5;
+  font-weight: 700;
+}
+
+strong {
+  font-weight: 700;
 }
 
 a {
@@ -77,7 +82,7 @@ img {
 .site-title {
   font-family: var(--font-serif);
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 700;
   color: var(--color-heading);
   text-decoration: none;
 }
@@ -85,6 +90,7 @@ img {
 .site-nav a {
   margin-left: 16px;
   font-size: 14px;
+  font-weight: 500;
   color: var(--color-body);
   text-decoration: none;
   border-bottom: 1px solid var(--color-border-strong);
@@ -220,6 +226,7 @@ img {
   display: block;
   font-family: var(--font-serif);
   font-size: 17px;
+  font-weight: 700;
   color: var(--color-heading);
   margin-bottom: 4px;
 }
@@ -233,6 +240,77 @@ img {
 
 .article-strip:hover .article-strip-title {
   color: var(--color-accent);
+}
+
+/* 記事本文タイポグラフィ */
+
+.site-main h1 {
+  font-size: 27px;
+  line-height: 1.5;
+  margin: 36px 0 12px;
+}
+
+.site-main h1 + p {
+  font-size: 17px;
+}
+
+.site-main h2 {
+  font-size: 21px;
+  margin: 56px 0 20px;
+  padding-left: 14px;
+  border-left: 4px solid var(--color-accent);
+  border-radius: 0;
+}
+
+.site-main p {
+  margin: 0 0 1.5em;
+}
+
+.site-main ul,
+.site-main ol {
+  margin: 1em 0 1.8em;
+  padding-left: 1.7em;
+}
+
+.site-main li {
+  margin-bottom: 0.7em;
+  line-height: 1.9;
+}
+
+.site-main li::marker {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.site-main code {
+  background: #F0E5CC;
+  color: #4A3728;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.summary-box {
+  background: #FFFDF7;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 24px 0;
+}
+
+.summary-box ul {
+  margin: 0;
+}
+
+.summary-box li:last-child {
+  margin-bottom: 0;
+}
+
+.store-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 24px 0;
 }
 
 /* フッター */
