@@ -51,6 +51,11 @@ description: "「小説家になろう」のWeb小説を、お気に入り管理
   <span class="article-strip-desc">ブラウザ・公式アプリ・リーダーアプリの3つの方法を比較し、快適な読み方を整理しました。</span>
 </a>
 
+<a class="article-strip" href="{{ '/articles/narou-koushiki-app/' | relative_url }}">
+  <span class="article-strip-title">「小説家になろう」に公式アプリはある？現状と読み方の選択肢（2026年）</span>
+  <span class="article-strip-desc">公式アプリ「小説家になろうビューア」の現状を、公式ヘルプの記載にもとづいて事実ベースで整理しました。</span>
+</a>
+
 <a class="article-strip" href="{{ '/articles/narou-dokomade-yonda/' | relative_url }}">
   <span class="article-strip-title">「小説家になろう」で「どこまで読んだか」分からなくなった時の探し方と対策</span>
   <span class="article-strip-desc">しおり・ブックマークの公式仕様を確認しながら、続きを見失ったときの探し方と予防策をまとめました。</span>
