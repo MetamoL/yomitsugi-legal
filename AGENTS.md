@@ -1,27 +1,22 @@
-# AGENTS.md — Yomitsugi public/legal site
+# AGENTS.md — Yomitsugi 公開・法務サイト
 
-This repository is the public Yomitsugi website, legal pages, support page and
-SEO articles. It supports both Claude Code and Codex.
+このリポジトリは Yomitsugi の公開サイト、法務ページ、サポートページ、SEO 記事を持ち、
+Claude Code と Codex の両方で使用する。
 
-## Sources and boundaries
+## 正本と境界
 
-- Product behavior and policy facts come from the sibling `yomitsugi`
-  repository, especially `REQUIREMENTS.md`, `BACKLOG.md`, relevant design docs
-  and the actual implementation. Do not invent or infer legal claims.
-- Keep the privacy policy consistent with shipped analytics, notifications,
-  storage, deletion and third-party services.
-- Store-registered URLs and existing legal/support paths are stable API-like
-  contracts. Do not rename or remove them.
-- Preserve the statement that Yomitsugi is unofficial, free and ad-free while
-  monetization is disabled.
+- 製品挙動とポリシーの事実は、隣接する `yomitsugi` リポジトリの `REQUIREMENTS.md`、
+  `BACKLOG.md`、関係する設計書、実装を正とする。法務上の説明を推測で作らない。
+- プライバシーポリシーは、公開中の分析、通知、保存、削除、外部サービスの実態と一致させる。
+- ストア登録済み URL と既存の法務・サポートページのパスは API と同様の固定契約。
+  改名・削除しない。
+- 収益化停止中は、Yomitsugi が非公式・無料・広告なしである説明を維持する。
 
-## Editing and verification
+## 編集と検証
 
-- Preserve YAML front matter and Jekyll/Liquid syntax.
-- For articles, use polite Japanese and support factual claims with primary
-  sources. Do not mass-produce low-value AI articles.
-- Check internal links and rendered structure for affected pages. Use a local
-  Jekyll build when the required runtime is available; otherwise report the
-  limitation and perform static checks.
-- Stage named paths only. A push can update the public site, so obtain explicit
-  owner approval before pushing.
+- YAML front matter と Jekyll/Liquid 構文を壊さない。
+- 記事はですます調とし、事実主張には一次情報を使う。低品質な AI 記事を量産しない。
+- 変更ページの内部リンクと描画構造を確認する。必要な環境がある場合は Jekyll をローカル
+  ビルドし、ない場合は制約を報告して静的検査を行う。
+- `git add` はパス指定とする。push は公開サイトを更新するため、事前にオーナーの
+  明示承認を得る。
