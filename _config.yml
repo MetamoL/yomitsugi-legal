@@ -8,5 +8,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# AI作業用の指示書を公開ページ化・サイトマップ収録しない。
+exclude:
+  - AGENTS.md
+
 webmaster_verifications:
   google: gY9woBQvPCBnQbIlwFMdRd5WytvzXp5C0Q22SYYpKlo
