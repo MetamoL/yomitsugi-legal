@@ -7,7 +7,7 @@ description: "「小説家になろう」のWeb小説を、お気に入り管理
   <div class="hero-inner">
     <div class="hero-text">
       <h1>読みかけの物語と、つぎの物語へ。</h1>
-      <p>「小説家になろう」のWeb小説を、お気に入り管理・更新検知・ランキングで快適に読む<strong>非公式</strong>リーダーアプリ。無料・広告なし。</p>
+      <p>「小説家になろう」のWeb小説を、お気に入り管理・更新検知・ランキングで快適に読む<strong>非公式</strong>リーダーアプリ。基本無料・広告なし。</p>
       <div class="hero-actions">
         <a class="store-btn" href="https://apps.apple.com/jp/app/id6778637183">App Store</a>
         <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.metamol.yomitsugi">Google Play</a>
