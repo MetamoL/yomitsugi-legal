@@ -66,7 +66,7 @@ description: "Yomitsugi（ヨミツギ）のプライバシーポリシーです
 - 端末内データは利用者の管理下にあります。**アプリを削除すると端末内データは削除**されます（iCloud 上のデータは Apple の仕組みに従います）。
 
 ## 5. お問い合わせ
-- 本ポリシーや情報の取り扱いに関するお問い合わせは、問い合わせフォームよりお願いします: https://docs.google.com/forms/d/e/1FAIpQLSew1qUxnnWEwksOhtSw_MRCYNKStomEOtqWUm-Y9M29uK1tNg/viewform
+- 本ポリシーや情報の取り扱いに関するお問い合わせは、問い合わせフォームよりお願いします: https://docs.google.com/forms/d/e/1FAIpQLSfqIL5uB7cgwArl3QkQFap5rO4eotmFbPeuY_1FmtPBvecI0w/viewform
 
 ## 6. 改定
 - 本ポリシーは予告なく改定されることがあります。重要な変更がある場合はアプリ内またはストアにて告知します。

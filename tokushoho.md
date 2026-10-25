@@ -13,7 +13,7 @@ description: "Yomitsugi（ヨミツギ）のアプリ内課金（プレミアム
 |---|---|
 | 販売事業者 | Metamol |
 | 運営責任者・所在地・電話番号 | お取引に関して開示のご請求があった場合には、法令に基づき遅滞なく開示します。ご希望の方は下記の問い合わせフォームからご請求ください。※電話でのお問い合わせは受け付けていません |
-| お問い合わせ | [問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSew1qUxnnWEwksOhtSw_MRCYNKStomEOtqWUm-Y9M29uK1tNg/viewform) |
+| お問い合わせ | [問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSfqIL5uB7cgwArl3QkQFap5rO4eotmFbPeuY_1FmtPBvecI0w/viewform) |
 | 販売価格 | プレミアム（月額）: 300円（税込）／プレミアム（買い切り）: 3,000円（税込）／応援チップ: 300円・600円・1,200円（税込）。適用される価格は、購入手続き時にアプリ内および各ストア（App Store／Google Play）に表示される金額が優先されます |
 | 販売価格以外の必要料金 | インターネット接続にかかる通信料（利用者のご負担となります） |
 | お支払い方法 | App Store（Apple）または Google Play（Google）のアプリ内課金 |

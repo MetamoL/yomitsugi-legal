@@ -91,4 +91,4 @@ description: "Yomitsugi（ヨミツギ）の利用規約です。アプリの利
 
 ## 11. お問い合わせ
 
-- 本規約に関するお問い合わせは、[問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSew1qUxnnWEwksOhtSw_MRCYNKStomEOtqWUm-Y9M29uK1tNg/viewform)からお願いします。
+- 本規約に関するお問い合わせは、[問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSfqIL5uB7cgwArl3QkQFap5rO4eotmFbPeuY_1FmtPBvecI0w/viewform)からお願いします。

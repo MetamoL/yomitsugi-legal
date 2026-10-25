@@ -10,7 +10,7 @@ description: "Yomitsugi（ヨミツギ）のサポート窓口・よくある質
 ---
 
 ## お問い合わせ
-- お問い合わせは **[問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSew1qUxnnWEwksOhtSw_MRCYNKStomEOtqWUm-Y9M29uK1tNg/viewform)** からお願いします。
+- お問い合わせは **[問い合わせフォーム](https://docs.google.com/forms/d/e/1FAIpQLSfqIL5uB7cgwArl3QkQFap5rO4eotmFbPeuY_1FmtPBvecI0w/viewform)** からお願いします。
 - スムーズな対応のため、可能なら **端末名 / OS バージョン / アプリのバージョン / 発生手順** を添えてください。
 
 ## よくある質問（FAQ）
